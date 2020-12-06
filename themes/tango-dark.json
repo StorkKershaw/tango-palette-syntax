@@ -1,0 +1,235 @@
+{
+  "name": "Tango Dark",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "name": "Ruby symbol",
+      "scope": [
+        "constant.language.symbol.ruby",
+        "constant.language.symbol.hashkey.ruby"
+      ],
+      "settings": { "foreground": "#cc0000" }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": { "foreground": "#3465a4" }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": { "foreground": "#ce5c00" }
+    },
+    {
+      "name": "Regexp",
+      "scope": "string.regexp",
+      "settings": { "foreground": "#3465a4" }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": { "foreground": "#cc0000" }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable.language", "variable.other"],
+      "settings": { "foreground": "#729fcf" }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": { "foreground": "#729fcf" }
+    },
+    {
+      "name": "Variable start",
+      "scope": "punctuation.definition.variable",
+      "settings": { "foreground": "#729fcf" }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": { "foreground": "#c17d11" }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": { "foreground": "#4e9a06" }
+    },
+    {
+      "name": "Built-in type",
+      "scope": "support.type",
+      "settings": { "foreground": "#4e9a06" }
+    },
+    {
+      "name": "User-defined type",
+      "scope": "entity.name.type",
+      "settings": { "foreground": "#fcaf3e", "fontStyle": "underline" }
+    },
+    {
+      "name": "Class name",
+      "scope": [
+        "entity.name.class",
+        "entity.name.namespace",
+        "entity.name.scope-resolution",
+        "support.class",
+        "meta.class"
+      ],
+      "settings": { "foreground": "#fcaf3e" }
+    },
+    {
+      "name": "Constructors",
+      "scope": ["support.function.construct", "keyword.other.new"],
+      "settings": { "foreground": "#fcaf3e" }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "keyword.other.special-method",
+        "meta.function-call.generic"
+      ],
+      "settings": { "foreground": "#3465a4" }
+    },
+    {
+      "name": "Embedded code markers",
+      "scope": [
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
+      "settings": { "foreground": "#fcaf3e" }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": [
+        "constant.language",
+        "meta.preprocessor",
+        "support.other.variable",
+        "support.constant",
+        "support.variable"
+      ],
+      "settings": { "foreground": "#06989A" }
+    },
+    {
+      "name": "Built-in functions",
+      "scope": [
+        "support.function",
+        "support.function.any-method",
+        "entity.other.attribute-name.id"
+      ],
+      "settings": { "foreground": "#06989A" }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": ["constant.character", "constant.other"],
+      "settings": { "foreground": "#cc0000" }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": { "foreground": "#8ae234" }
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": { "foreground": "#c17d11", "fontStyle": "underline" }
+    },
+    {
+      "name": "Tag start/end",
+      "scope": [
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end"
+      ],
+      "settings": {}
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": { "foreground": "#4e9a06" }
+    },
+    {
+      "name": "Continuation",
+      "scope": "punctuation.separator.continuation",
+      "settings": {}
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#2e3436",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "diff: header",
+      "scope": ["meta.diff", "meta.diff.header"],
+      "settings": {}
+    },
+    {
+      "name": "diff: deleted",
+      "scope": "markup.deleted",
+      "settings": { "foreground": "#729fcf" }
+    },
+    {
+      "name": "diff: changed",
+      "scope": "markup.changed",
+      "settings": { "foreground": "#ad7fa8" }
+    },
+    {
+      "name": "diff: inserted",
+      "scope": "markup.inserted",
+      "settings": { "foreground": "#8ae234" }
+    },
+    {
+      "name": "Markup Quote",
+      "scope": "markup.quote",
+      "settings": { "foreground": "#f57900" }
+    },
+    {
+      "name": "Markup Lists",
+      "scope": "markup.list",
+      "settings": { "foreground": "#729fcf" }
+    },
+    {
+      "name": "Markup: Strong",
+      "scope": "markup.bold",
+      "settings": { "foreground": "#f57900", "fontStyle": "bold" }
+    },
+    {
+      "name": "Markup: Emphasis",
+      "scope": "markup.italic",
+      "settings": { "foreground": "#ad7fa8", "fontStyle": "italic" }
+    },
+    {
+      "name": "Markup Inline",
+      "scope": "markup.inline.raw",
+      "settings": { "foreground": "#8ae234" }
+    },
+    {
+      "name": "Markup Headings",
+      "scope": "markup.heading",
+      "settings": { "foreground": "#729fcf" }
+    },
+    {
+      "name": "Markup Setext Header",
+      "scope": "markup.heading.setext",
+      "settings": {}
+    }
+  ],
+  "colors": {
+    "editorLineNumber.foreground": "#ce5c00",
+    "editorLineNumber.activeForeground": "#f57900",
+    "editor.selectionBackground": "#d3d7cf",
+
+    "menu.foreground": "#888a85",
+
+    "activityBar.foreground": "#888a85",
+    "statusBar.foreground": "#888a85",
+    "sideBar.foreground": "#888a85",
+
+    "statusBar.background": "#2e3436",
+    "statusBar.noFolderBackground": "#2e3436",
+    "statusBar.debuggingBackground": "#2e3436",
+    "statusBarItem.remoteBackground": "#3465a4"
+  },
+  "semanticHighlighting": true
+}

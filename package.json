@@ -1,0 +1,36 @@
+{
+  "name": "tango-palette-syntax",
+  "displayName": "Tango Palette Syntax",
+  "description": "A Visual Studio Code color theme created using Tango Project Color Palette.",
+  "publisher": "StorkKershaw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StorkKershaw/tango-palette-syntax"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tango Light",
+        "uiTheme": "vs",
+        "path": "./themes/tango-light.json"
+      },
+      {
+        "label": "Tango Solarized Light",
+        "uiTheme": "vs",
+        "path": "./themes/tango-solarized-light.json"
+      },
+      {
+        "label": "Tango Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tango-dark.json"
+      }
+    ]
+  }
+}
